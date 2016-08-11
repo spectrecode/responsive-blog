@@ -98,6 +98,7 @@ footer {
 	background-color: #1C1821;
 	margin-top: 5%;
 	margin-bottom: -20px;
+	font-style: normal;
 }
 
 .fa {
@@ -106,15 +107,26 @@ footer {
 	margin-right: 5%;
 }
 
-.fa:hover{
+div.fa:hover{
 	color: orange;
+}
+
+span.fa,.bar {
+	border: none;
+	margin-right: 0%;
+}
+
+.bar {
+	display: none;
 }
 
 
 /* Responsive */
 
 @media screen and (max-width : 920px) {
-
+.bar {
+	display: block;
+	float: right;
 }
 
 @media screen and (max-width: 600px) {
