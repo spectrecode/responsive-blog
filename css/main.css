@@ -90,6 +90,17 @@ input {
 	background-color: #1C1821;
 }
 
+iframe {
+	margin-bottom: -5PX;
+}
+
+footer {
+	background-color: #1C1821;
+	margin-top: 5%;
+	margin-bottom: -20px;
+}
+
+
 /* Responsive */
 
 @media screen and (max-width : 920px) {
